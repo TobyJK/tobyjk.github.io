@@ -1,0 +1,76 @@
+
+.site-content {
+  background-color: rgb(189, 227, 241)
+}
+
+.bg-image-right {
+  background-image: url("resources/right-side.jpg");
+  filter: blur(6px);
+
+  height: 1120px;
+  width: 270px;
+
+}
+
+.bg-image-left {
+  background-image: url("resources/left-side.jpg");
+  filter: blur(6px);
+
+  height: 1120px;
+  width: 270px;
+}
+
+.main-content {
+  z-index: 2;
+  background-color: rgba(189, 227, 241, 0.8);
+  color: white;
+  border: 1px solid rgba(189, 227, 241, 0.9);
+
+}
+
+.bg-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -99;
+  display: block;
+  background-image: url("resources/server-room.jpg");
+  width: 2000px;
+  height: 1124px;
+  filter: blur(6px);
+}
+
+.bg-image-index {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -99;
+  display: block;
+  background-image: url("resources/index.jpg");
+  width: 2000px;
+  height: 1124px;
+  filter: blur(3px);
+}
+
+img{
+  object-fit:scale-down;
+  display: block;
+
+  max-height: 100%;
+  max-width: 100%;   
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-image-toby {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -99;
+  display: block;
+  background-image: url("resources/machineLearning.jpg");
+  width: 2000px;
+  height: 1124px;
+  filter: blur(5px);
+}
